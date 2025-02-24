@@ -1,1 +1,18 @@
+available_fruits = {
+    "mango" : 20,
+    "banana" : 15,
+    "apple" : 20
+}
 
+choice = input("What fruit would you like? ")
+if choice in available_fruits:
+    amount = 20
+    print("We have " + str(amount) + " available")
+elif choice == "banana":
+    amount = 15
+    print("We have " + str(amount) + " available")
+else:
+    print("We don't have that fruit")
+
+for letter in choice:
+    print(letter)
