@@ -1,0 +1,13 @@
+import random
+guess = [0]
+wrong = []
+answer = random.randint(1, 10)
+guess = int(input("Please guess a number between 1 and 10: "))
+
+while guess != answer:
+    wrong.append(int(guess))
+    guess = int(input("Try again: "))
+    if guess == answer:
+        print("You got it!")
+
+print(wrong)
