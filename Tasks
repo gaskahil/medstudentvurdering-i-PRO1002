@@ -1,0 +1,8 @@
+#Exercise nr 1 - Greeting and Age Check
+name = input("What is your name? ")
+age = input("What is your age? ")
+
+if int(age) >= 18:
+    print("welcome " + name + ", you may enter!")
+else:
+    print("Unfortunately " + name + ", you're " + age + " and are too young.")
