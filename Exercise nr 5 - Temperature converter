@@ -1,0 +1,11 @@
+cel = float(input("Please type in a temperature: "))
+far = cel * 9/5 + 32
+print(far)
+
+if far >= 80:
+    print("It's hot!")
+else:
+    print("It's not to hot.")
+
+temp = cel, far
+print(temp)
